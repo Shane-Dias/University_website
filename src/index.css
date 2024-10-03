@@ -33,3 +33,8 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+.mybtn.darkbtn{
+    color: white;
+    background-color: #0f3aa3;
+}

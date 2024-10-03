@@ -1,0 +1,18 @@
+.campus{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery img{
+    width: 23%;
+    aspect-ratio: 4/4;
+    border-radius: 10px;
+    cursor: pointer;
+}
