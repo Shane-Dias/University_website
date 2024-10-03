@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+body{
+    background-color: #eae6e6;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+.pcontainer{
+    padding: 0 10%;
+}
+.mybtn{
+    background: white;
+    color: #141414;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 1em;
+    padding: 0.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

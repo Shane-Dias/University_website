@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 5rem auto ;
+    margin-bottom: 0;
+    align-items: flex-start;
+}
+.about .about-left img{
+    width: 28rem;
+    height: 100%;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.about-left{
+    position: relative;
+    height: 100%;
+}
+.about_icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 4rem;
+    width: 4rem;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.about-right {
+    margin:0 1.2rem;
+    /* margin-bottom: 2rem; */
+}
+.about-right>p{
+    margin-bottom: 2rem;
+}
+
+.about-bottom{
+    width: 90%;
+    margin: auto;
+}
