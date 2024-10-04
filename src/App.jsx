@@ -5,6 +5,7 @@ import Program from "./components/Program";
 import Title from "./components/Title";
 import About from "./components/About";
 import Campus from "./components/Campus";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       </div>
       <About />
       <Campus/>
+      <Testimonials />
     </div>
   );
 };
