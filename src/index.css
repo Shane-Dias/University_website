@@ -33,9 +33,19 @@ a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
 }
-
+.mybtn:hover{
+    background-color: #0f3aa3;
+    color: white;
+}
 .mybtn.darkbtn{
     color: white;
     background-color: #0f3aa3;
+    transition: all 0.5s;
+}
+
+.mybtn.darkbtn:hover,.mybtn:hover{
+    background-color: rgba(9, 212, 212, 0.954);
+    color: black;
 }

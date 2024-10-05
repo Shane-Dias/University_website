@@ -18,8 +18,12 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+  transition: all 0.5s;
 }
-
+.btn-test:hover{
+  background-color: rgba(9, 212, 212, 0.954);
+  color: black;
+}
 .back-btn {
   left: 0;
 }
