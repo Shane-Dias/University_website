@@ -1,0 +1,49 @@
+.contact{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.contact-col{
+    flex-basis: 46%;
+    font-size: 1.2rem;
+}
+.contact-col h3{
+    font-size: 1.9rem;
+    display: flex;
+    align-items: center;
+}
+.contact-col p{
+    line-height: 1.1;
+    margin-bottom: 12px;
+    max-width: 500px;
+}
+
+.contact-col li{
+    margin: 0.6rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-col form input,.contact-col form textarea{
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    resize: none;
+    background: #6161ff1f;
+    border-radius: 8px;
+}
+
+.contact-col span{
+    color: black;
+    display: block;
+    margin-top: 0.8rem;
+}

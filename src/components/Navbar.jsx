@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar pcontainer ${is_fixed?"darknav":""}`}>
       <div className="logobox">
-      <span>Pinnacle Crest</span><DiMagento className="logo" />
+      <span style={{color:"white"}}>Pinnacle Crest</span><DiMagento className="logo" />
       </div>
       <ul>
         <li>Home</li>
