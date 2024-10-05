@@ -14,3 +14,13 @@
     display: inline-block;
     margin-left: 1rem;
 }
+
+@media (max-width:655px) {
+    .footer{
+        flex-direction: column;
+        padding: 0.2rem;
+    }
+    .footer p{
+        text-align: center;
+    }
+}

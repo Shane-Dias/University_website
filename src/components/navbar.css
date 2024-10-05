@@ -12,7 +12,11 @@
     align-items: center;
     z-index: 10;
 }
-
+.menu-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: none;
+}
 .logo{
     width: 3rem;
     height: 3rem;
@@ -41,4 +45,33 @@
     background: #0f3aa3;
     box-shadow: 0px 1px 5px 0px black;
     transition: all 0.6s;
+}
+
+/*-----media queries-----*/
+
+@media (max-width:910px){
+    .navbar ul{
+        position: fixed;
+        top: 0;
+        right: 0px;
+        width: 200px;
+        flex-direction: column;
+        background-color: #0f3aa3;
+        height: 100vh;
+        padding: 2rem 0.5rem;
+        transition: all 0.5s;
+    }
+    .navbar ul li{
+        margin: 1.4rem auto;
+        margin-left: 2rem;
+    }
+    .menu-icon{
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+    }
+    
+    .navbar .hide-menu{
+        right: -200px;
+    }
 }

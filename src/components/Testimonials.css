@@ -56,7 +56,7 @@
     align-items: center;
     margin-bottom: 0.7rem;
 }
-h3{
+.name{
     color: #0f3aa3;
     font-size: 1.5rem;
 }
@@ -70,4 +70,44 @@ h3{
 }
 span{
   color: rgb(224, 115, 79);
+}
+/********media queries**********/
+
+@media (max-width:1000px){
+  .slider-inner ul li{
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+}
+@media (max-width:800px){
+  .slider-inner ul li{
+    font-size: 0.9rem;
+    margin: 8px;
+    line-height: 1.2;
+  }
+  .testimonials {
+    padding: 0 1rem;
+  }
+}
+@media (max-width:590px) {
+  .name{
+    line-height: 0.8;
+    font-size: 1.2rem;
+  }
+  span{
+    line-height: 0.6;
+  }
+}
+@media (max-width:430px){
+  .testimonials{
+    padding: 0;
+  }
+}
+@media (max-width:330px){
+  .slider-inner ul li{
+    font-size: 0.7rem;
+    margin: 4px;
+    line-height: 1;
+    padding: 0.4rem;
+  }
 }

@@ -13,7 +13,7 @@ const About = () => {
           <MdOutlinePlayCircleFilled className="about_icon" />
         </div>
         <div className="about-right">
-          <div className="title" style={{ margin: 0, textAlign: "left" }}>
+          <div className="title about-title">
             <p>ABOUT UNIVERSITY</p>
             <h2>Nurtuing Tomorrow's Leaders Today</h2>
           </div>

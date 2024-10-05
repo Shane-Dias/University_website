@@ -49,3 +49,28 @@ a{
     background-color: rgba(9, 212, 212, 0.954);
     color: black;
 }
+
+/********media queries**********/
+
+@media (max-width:1150px){
+    .pcontainer{
+        padding: 0 5%;
+    }
+}
+@media (max-width:1000px){
+    .pcontainer{
+        padding:0;
+    }
+}
+
+@media (max-width:910px){
+    .pcontainer{
+        padding: 0 5%;
+    }
+}
+
+@media (max-width:425px){
+    .p-phone{
+        padding: 0 15%;
+    }
+}

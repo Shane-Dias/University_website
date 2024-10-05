@@ -16,3 +16,16 @@
     border-radius: 10px;
     cursor: pointer;
 }
+/*------media queries-------*/
+@media (max-width:650px) {
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery img{
+        width: 88%;
+        aspect-ratio: 4/3;
+        margin-bottom: 1rem;
+    }
+}

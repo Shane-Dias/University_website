@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="hero-text pcontainer">
+      <div className="hero-text pcontainer p-phone">
         <h1>Empowering Minds and Shaping Futures </h1>
         <p>
           At Pinnacle Crest University, we inspire and empower students with

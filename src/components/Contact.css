@@ -2,6 +2,7 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 3rem;
@@ -19,7 +20,6 @@
 .contact-col p{
     line-height: 1.1;
     margin-bottom: 12px;
-    max-width: 500px;
 }
 
 .contact-col li{
@@ -46,4 +46,35 @@
     color: black;
     display: block;
     margin-top: 0.8rem;
+}
+
+/********media queries**********/
+
+@media (max-width:730px){
+    .contact{
+        flex-direction: column;
+    }
+    .contact-col{
+        flex-basis: 0;
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .contact-col p{
+        line-height: 1.2;
+    }
+}
+
+@media (max-width:430px){
+    .contact-col p{
+        line-height: 1;
+    }
+    .contact-col h3{
+        font-size: 1.5rem;
+    }   
+    .contact-col{
+        font-size: 1rem;
+    }
+    .contact{
+        margin-bottom: 1rem;
+    }
 }

@@ -1,5 +1,6 @@
 .about{
     display: flex;
+    /* flex-wrap: wrap-reverse; */
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -39,4 +40,27 @@
 .about-bottom{
     width: 90%;
     margin: auto;
+}
+
+.about-title{
+    text-align: left;
+    margin: 0;
+}
+
+/*--------media queries--------*/
+@media (max-width:435px) {
+    .about .about-left img{
+        width: 100%;
+    }
+}
+@media (max-width:1300px){
+    .about{
+        flex-wrap: wrap-reverse;
+    }
+    .about-bottom{
+        margin-top: 0.5rem;
+    }
+    .about-title{
+        text-align: center;
+    }
 }
