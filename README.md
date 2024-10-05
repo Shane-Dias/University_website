@@ -6,6 +6,11 @@ This project is a promotional website designed to provide an overview of an educ
 
 ## Features
 - Responsive Design: The website is optimized for both desktop and mobile devices
+- Home Section: An introduction to the institution.
+- Courses Offered Section
+- Campus Gallery: Showcasing images of the campus.
+- About Us: Information about the institution’s mission and values
+- Testimonials: Feedback from students
 - Contact Section: A form for visitors to send inquiries or reach out for more information
 
 ## Technology Used
